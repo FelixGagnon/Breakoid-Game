@@ -1,0 +1,42 @@
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Bricks_bg.jpg);
+    overflow: hidden;
+
+}
+
+.startBtn {
+    display: block;
+    position: absolute;
+    height: 32px;
+    width: 115px;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border: 2px solid;
+    border-radius: 15;
+}
+
+.btn-wrapper {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.canvas {
+    border: solid;
+    border-width: 10px;
+    border-color:ghostwhite;
+    background-image: url(images/splashscreen_1100_720.png);
+    background-size: 720px 480px;
+    display: block;
+
+}
